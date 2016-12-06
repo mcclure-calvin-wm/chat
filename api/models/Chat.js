@@ -1,5 +1,4 @@
 module.exports = {
-
   attributes: {
     messages : {
       type: 'array',
@@ -8,7 +7,11 @@ module.exports = {
     },
     roomNum: {
       type: 'integer',
-      
+      autoIncrement: true
+    },
+    RoomName: {
+      type: 'string',
+      required: false
     }
   }
 };
